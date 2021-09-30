@@ -1,0 +1,220 @@
+body {
+    background:  #151320; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,#008080,#008080);
+}
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+#register_form{
+    padding: 10px;
+    width: 600px;
+    margin: 15px -500px;
+}
+
+main {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background: beige;
+}
+
+.imgcontainer {
+   
+    /*border-radius: 500%;*/
+    margin: 12px 560px 12px 249px;
+    height: fit-content;
+    width: fit-content;
+}
+
+p {
+    font-family: Open Sans;
+    color: white;
+    border-bottom: 1.50px solid black;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+button:hover {
+    opacity: 0.52;
+}
+nav h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    margin: 15px 229px 15px 566px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.text{
+    border-radius: 8px;
+    font-size: 25px;
+    margin: auto 10px auto 10px;
+    color: rgb(0, 0, 0);
+}
+#btn{
+    
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        /* background: none; */
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+}
+.select{
+    font-size: 22px;
+    border-radius: 5px;
+}
+#login{
+    font-size: 22px;
+    text-decoration: none;
+    color:rgb(250, 2, 2);
+    margin: 20px 20px 20px 0px;
+    text-decoration-style: none;
+    font-family: 'Grechen Fuemen', cursive;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+nav h1{
+    color: white;
+}
+#login_btn{
+    border: 1px solid black;
+    border: black;
+}
+#Home{
+    font-size: 22px;
+    text-decoration: none;
+    color:rgb(250, 2, 2);
+    margin: 20px 20px 20px 0px;
+    text-decoration-style: none;
+    font-family: 'Grechen Fuemen', cursive;
+}
+#signup{
+    font-size: 22px;
+    text-decoration: none;
+    color:rgb(250, 2, 2);
+    margin: 20px 20px 20px 0px;
+    text-decoration-style: none;
+    font-family: 'Grechen Fuemen', cursive;
+}
+nav ul{
+    margin: 35px 40px 30px 0px ;
+}
+.nav_btn{
+    color: rgb(250, 2, 2);
+}
+.select_btn{
+    height: 40px;
+    width: 251px ;
+    display: flex;
+    flex-direction: row;
+    margin: 69px 7px 10px 227px ;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.regist{
+    height: 37px;
+    width: 152px;
+    border-radius: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logi{
+    height: 37px;
+    width: 95px;
+    border-radius: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.form_container{
+    display: flex;
+    flex-direction: row;   
+}
+
+/* CSS code for animation */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.wrapper{
+  display: flex;
+  margin: 20px;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:  #151320; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left,#008080,#008080);
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
