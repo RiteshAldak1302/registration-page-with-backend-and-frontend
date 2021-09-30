@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> </title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    nav h1 {}
+
+    .body {
+      display: flex;
+      justify-content: center;
+      height: fit-content;
+      background-color: #151320;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #008080, #008080);
+      ;
+    }
+
+    .para {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin: 50px auto;
+    }
+
+    #login {
+      font-size: 25px;
+      text-decoration: none;
+      color: rgb(250, 2, 2);
+      margin: 20px 11px 20px 0px;
+      text-decoration-style: none;
+    }
+
+    .tubelight span {
+      height: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      /*   font-family: 'Pacifico', cursive; */
+      font-family: 'Monda', sans-serif;
+      font-size: 1.5em;
+      animation: animate 2s linear;
+      animation-iteration-count: 2;
+      /*   display:table-cell; */
+      padding: 0px 4px;
+      text-shadow: 0px 0px 20px #fff,
+        0px 0px 30px #fff,
+        0px 0px 10px #fff,
+        0px 0px 1px #fff;
+    }
+
+    .tubelight {
+      width: 600px;
+      margin: auto -100px;
+    }
+
+    .tubelight span:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .tubelight span:nth-child(2) {
+      animation-delay: 0.25s;
+    }
+
+    .tubelight span:nth-child(3) {
+      animation-delay: 0.5s;
+    }
+
+    .tubelight span:nth-child(4) {
+      animation-delay: 0.75s;
+    }
+
+    .tubelight span:nth-child(5) {
+      animation-delay: 0.3s;
+    }
+
+    .tubelight span:nth-child(6) {
+      animation-delay: 0.5s;
+    }
+
+    .tubelight span:nth-child(7) {
+      animation-delay: 0.6s;
+    }
+
+    .tubelight span:nth-child(8) {
+      animation-delay: 0.8s;
+    }
+
+    .tubelight span:nth-child(9) {
+      animation-delay: 1s;
+    }
+
+
+
+    @keyframes animate {
+
+      0%,
+      15%,
+      25%,
+      30%,
+      65%,
+      95% {
+        color: rgb(44, 44, 44);
+        text-shadow: none;
+      }
+
+      10%,
+      20%,
+      31%,
+      60%,
+      100% {
+        color: #fff;
+        text-shadow: 0px 0px 20px #fff,
+          0px 0px 30px #fff,
+          0px 0px 10px #fff,
+          0px 0px 1px #fff;
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body style="background:  #151320; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,#008080,#008080); height:100vh;">
+  {{!-- CSS code for Multiple Texts Typing Animation--}}
+  <nav style="color: black;">
+    <h1>
+      <div class="tubelight">
+        <span>W</span>
+        <span>E</span>
+        <span>B</span>
+        <span> </span>
+        <span>T</span>
+        <span>E</span>
+        <span>C</span>
+        <span>H</span>
+      </div>
+    </h1>
+    <ul>
+      <a href="/" id="Home" class="nav_btn">Home</a>
+      <a href="/signup" id="signup" class="nav_btn">Sign Up</a>
+      <a href="/login" id="login" class="nav_btn">Login</a>
+    </ul>
+  </nav>
+  <div class="body">
+    <div class="wrapper">
+      <div class="static-txt">I'm a</div>
+      <ul class="dynamic-txts">
+        <li><span>ENGINEER</span></li>
+        <li><span>Designer</span></li>
+        <li><span>WEB DEVELOPER</span></li>
+        <li><span>CODER</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="para">
+    <pre style="font-size: 22px; color:white;">
+      WEB TECH website is all about creativity and innovative work in the field of Technology.
+    
+    “Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about
+      things that I think is helpful in all domains.”</pre>
+  </div>
+  <div class="about_me" style="margin:140px;">
+    <h1 style="color:orangered ; font-size:40px; text-align:center; ">ABOUT ME</h1>
+    <p style="width: 800px; text-align:center; margin:20px auto; font-size:17px;">Hello, I am Ritesh. I am beginner in the field of Web Technology and This is my trail Project .I hope you like my website. If you have any questions feel free to contact me through the Contact Page. </p>
+  </div>
+</body>
+
+</html>
